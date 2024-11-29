@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Victorymalls</title>
+<link href="css/contactusls.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+
+</style>
+<script type="text/javascript">
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+</script>
+</head>
+
+
+
+<div id="container">
+  <div id="header">
+    <div id="banner"><img src="images/vlogo.png" width="259" height="71" alt="logo"></div><!--end of id banner-->
+</div><!--end of div header-->
+  
+  <div id="navbar">
+  <div id="menu">
+		<ul>
+	  	<li><a href="index.html">Home</a></li>
+		</ul><!--closure of Home Ul tag-->
+		
+
+		<ul>
+	  	<li><a href="aboutus.html">About Us</a></li>
+		</ul><!--closure of About Us Ul tag-->
+		
+    
+    	<ul>
+	  	<li><a href="eventss.html">Events</a></li>
+		</ul><!--closure of Events Ul tag-->
+		
+    
+    	<ul>
+	  	<li><a href="gettingthere.html">Getting There</a></li>
+		</ul><!--closure of Getting There Ul tag-->
+		    
+    	<ul>
+	  	<li><a href="#">Promotions</a></li>
+		</ul><!--closure of Promotions Ul tag-->
+		
+    
+    	<ul>
+	  	<li><a href="contactus.html">Contact Us</a></li>
+		</ul><!--closure of Contact Us Ul tag-->
+        
+		<ul>
+	  	<li><a href="support.html">Support</a></li>
+		</ul><!--closure of Contact Us Ul tag-->
+    
+	</div><!--end of main menu div-->
+    </div><!--end of navbar div-->
+  
+<div id="maincontent"><br>
+<span class="aboutus"><a href="index.html"></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">Home</a> > <a href="contactus.html">Contact Us</a> > Leasing Inquiry</span>
+<div id="topslider"> 
+    <form action="" method="post" name="contactform" id="contactform" onSubmit="MM_validateForm('lineofbusiness','','R','name','','R','position','','R','telno','','RisNum','residence','','R','cellno','','RisNum','email','','RisEmail','tradename','','R','merchandise','','R','area','','R','space','','R');return document.MM_returnValue">
+      <table width="100%" border="0" cellpadding="2" cellspacing="5">
+        <tr>
+          <th width="36%" align="left" valign="top" scope="col">Type of Application :</th>
+          <th width="64%" align="left" valign="top" scope="col"><input type="radio" name="radio" id="type" value="type">
+            <label for="type">Permanent
+              <input type="radio" name="radio" id="type2" value="type">
+            Temporary</label></th>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="lineofbusiness">Line of Business :</label></td>
+          <td align="left" valign="top"><input name="lineofbusiness" type="text" id="lineofbusiness" size="50" maxlength="48"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="name">Name :</label></td>
+          <td align="left" valign="top"><input name="name" type="text" id="name" size="40" maxlength="40"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="position">Position :</label></td>
+          <td align="left" valign="top"><input name="position" type="text" id="position" size="40" maxlength="40"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="corporatename">Corporate Name :</label></td>
+          <td align="left" valign="top"><input name="corporatename" type="text" id="corporatename" size="40" maxlength="40"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="businessadd">Business Address :</label></td>
+          <td align="left" valign="top"><input name="businessadd" type="text" id="businessadd" size="50" maxlength="50"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="telno">Telephone No. (office)</label></td>
+          <td align="left" valign="top"><input name="telno" type="text" id="telno" size="9" maxlength="7"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="residence">Residence :</label></td>
+          <td align="left" valign="top"><input name="residence" type="text" id="residence" size="50" maxlength="50"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="cellno">Cellphone No. :</label></td>
+          <td align="left" valign="top"><input name="cellno" type="text" id="cellno" size="12" maxlength="11"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="email">Email Address :</label></td>
+          <td align="left" valign="top"><input name="email" type="text" id="email" size="40" maxlength="40"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><h3>Proposed Shop Profile</h3></td>
+          <td align="left" valign="top">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="tradename">Tradename :</label></td>
+          <td align="left" valign="top"><input name="tradename" type="text" id="tradename" size="50" maxlength="50"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="merchandise">Merchandise :</label></td>
+          <td align="left" valign="top"><input name="merchandise" type="text" id="merchandise" size="60" maxlength="60"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="target">Target Market :</label></td>
+          <td align="left" valign="top"><input name="target" type="text" id="target" size="40" maxlength="40"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="area">Area Requirement :</label></td>
+          <td align="left" valign="top"><input name="area" type="text" id="area" size="10" maxlength="10"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="unit">Unit Type :</label></td>
+          <td align="left" valign="top"><input type="text" name="unit" id="unit"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="space">Space Type :</label></td>
+          <td align="left" valign="top"><input type="text" name="space" id="space"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><h3>Existing Branches</h3></td>
+          <td align="left" valign="top">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top">TradeName :</td>
+          <td align="left" valign="top">Address :</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><input name="tradename1" type="text" id="tradename2" size="40" maxlength="38"></td>
+          <td align="left" valign="top"><label for="tradename1"></label>
+            <label for="tradename1"></label>
+            <input name="tradename2" type="text" id="tradename1" size="48" maxlength="50"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><input name="tradename3" type="text" id="tradename3" size="40" maxlength="38"></td>
+          <td align="left" valign="top"><label for="tradename2"></label>
+            <label for="tradename2"></label>
+            <input name="tradename4" type="text" id="tradename2" size="50" maxlength="48"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><input name="tradename5" type="text" id="tradename4" size="40" maxlength="38"></td>
+          <td align="left" valign="top"><label for="tradename3"></label>
+            <label for="tradename3"></label>
+            <input name="tradename6" type="text" id="tradename3" size="50" maxlength="48"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><h3>Business Data</h3></td>
+          <td align="left" valign="top">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="ownership">Type of Ownership :</label></td>
+          <td align="left" valign="top"><input type="radio" name="radio" id="ownershp" value="ownershp">
+            <label for="ownershp">Single Proprietorship
+              <input type="radio" name="radio" id="ownership" value="ownership">
+            Partnership
+            <input type="radio" name="radio" id="ownership2" value="ownership">
+            Corporation</label></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="namepartner">Name of Partners :</label></td>
+          <td align="left" valign="top"><input name="namepartner" type="text" id="namepartner" size="50" maxlength="48"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="natureofbusiness">Nature of Business :</label></td>
+          <td align="left" valign="top"><input name="natureofbusiness" type="text" id="natureofbusiness" size="50" maxlength="48"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="years">No. of Years in Business :</label></td>
+          <td align="left" valign="top"><input name="years" type="text" id="years" size="50" maxlength="48"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="other">Other Business :</label></td>
+          <td align="left" valign="top"><input name="other" type="text" id="other" size="50" maxlength="48"></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top"><label for="desired"><h3>Desired Mall:</h3></label></td>
+          <td><label><input type="checkbox" name="vcm" id="vcm">
+          Victory Central Mall - Caloocan</label><br>
+            <label><input type="checkbox" name="vps" id="vps">
+          Victory Park & Shop - Antipolo</label><br>
+          <label><input type="checkbox" name="vpm" id="vpm">
+          Victory Pasay Mall - Libertad, Pasay</label><br>
+          <label><input type="checkbox" name="vtcb" id="vtcb">
+          Victory Town Center - San Jose Bulacan</label><br>
+          <label><input type="checkbox" name="vtcl" id="vtcl">
+          Victory Town Center - Lemery, Batangas</label></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top">&nbsp;</td>
+          <td align="left" valign="top"><label for="clear"></label>
+            <input type="reset" name="clear" id="clear" value="Reset Form">
+            <label for="submit"></label>
+            <input type="submit" name="submit" id="submit" value="SEND Email"></td>
+        </tr>
+      </table>
+    </form>
+    
+          
+          
+          
+</div><!--end of topslider div-->
+
+</div><!--end of maincontent-->
+  
+<div id="footer">
+<div id="bottomnav1"><a href="index.html">Home</a> | <a href="aboutus.html">About Us</a> | <a href="eventss.html">Events</a> | <a href="gettingthere.html">Getting There</a> |<br>
+<a href="promotions.html">Promotions</a> | <a href="contactus.html"><font color="#000000">Contact Us</font></a> | <a href="support.html">Support</a></div><!--end of div bottomnav1-->
+
+<div id="bottomnav2"></div><!--end of id bottomnav2-->
+
+<div id="copyright">Copyright &copy; 2014 VICTORYMALLS All rights Reserved</div><!--end of div copyright-->
+
+  	</div><!--end of id footer-->
+  	
+  
+</div><!--end of container-->
+</div>
+</body>
+</html>
+
+
+
